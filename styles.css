@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    color: #e6d246;
+    padding: 15px 20px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+/* Default Logo Style */
+.logo img {
+    width: 80px;  
+    height: 80px;  
+    border-radius: 50%;  
+    object-fit: cover;  
+    border: 2px solid black;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect */
+.logo img:hover {
+    transform: scale(1.2); /* Expands the logo */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    padding: 40px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.order-btn {
+    background-color: #eccc17ef;;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.order-btn:hover {
+    transform: translateY(-10px), scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: red;
+}
+
+.image-placeholder {
+    width: 200px;
+    height: 150px;
+    background: lightgray;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Contact Us Button */
+.contact-container {
+    text-align: center;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.contact-btn {
+    background: #F4D03F;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Features Section */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 14px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}   
+
